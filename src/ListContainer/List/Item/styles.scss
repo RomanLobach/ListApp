@@ -1,0 +1,30 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  padding: 5px;
+
+  .check {
+    margin-right: 5px;
+  }
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.hidden {
+  display: none;
+}
+
+.value {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.buttons {
+  margin-left: auto;
+}
